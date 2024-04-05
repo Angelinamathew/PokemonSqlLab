@@ -2,7 +2,9 @@
 SELECT * FROM types;
 
 --2. What is the name of the pokemon with id 45?
-SELECT name FROM Pokemons WHERE id = 45;
+SELECT name
+FROM Pokemons
+WHERE id = 45;
 
 --3. How many pokemon are there?
 SELECT COUNT(*) FROM pokemons;
